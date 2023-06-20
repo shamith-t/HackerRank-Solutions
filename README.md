@@ -1,6 +1,9 @@
 # HackerRank-Solutions
 
-##Prepare By Topic
-  -Algorithms
-  -Artificial Intellegence
-  -Java
+## Prepare By Topic
+
+* [Java](#java)
+* [C++](#c)
+
+# Java
+# C

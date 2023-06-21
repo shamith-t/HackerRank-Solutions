@@ -2,8 +2,18 @@
 
 ## Prepare By Topic
 
-* [Java](#java)
-* [C++](#c)
 
-# Java
-# C
+* [Algorithms](#)
+* [Artificial Intelligence](#)
+* [Java](#java)
+* [SQL](#)
+* [Functional Programming](#)
+* [Data Structure](#)
+* [C](#)
+* [Python](#)
+* [Databases](#)
+* [Regex](#)
+* [Mathematics](#)
+* [C++](#)
+* [Ruby](#)
+* [Linux Shell](#)

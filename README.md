@@ -17,3 +17,10 @@
 * [C++](#)
 * [Ruby](#)
 * [Linux Shell](#)
+
+
+## Java
+
+|   **Challenge**  | **Solution** |
+|:----------------:|:------------:|
+| Welcome to Java! |              |

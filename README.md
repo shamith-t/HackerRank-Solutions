@@ -33,3 +33,6 @@
 |  Introduction |         Java Datatypes        |              |
 |  Introduction |        Java End-of-file       |              |
 |  Introduction | Java Static Initializer Block |              |
+|  Introduction |       Java Int to String      |              |
+|  Introduction |       Java Date and Time      |              |
+|  Introduction |    Java Currency Formatter    |              |

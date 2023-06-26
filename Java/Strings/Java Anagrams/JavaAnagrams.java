@@ -10,7 +10,7 @@ public class Solution {
           return false;
         for(int i=1;i<a.length()-1;i++){
           for(int j=1;j<b.length()-1;j++){
-            if(a.substring(i,i+1).compareTo(b.substring(j,j+1))==0){
+            if(a.charAt(i)==b.charAt(j)){
               b=b.substring(0,j)+"0"+b.substring(j+1,b.length());
               break;
             }

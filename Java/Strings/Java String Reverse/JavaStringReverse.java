@@ -10,7 +10,7 @@ public class Solution {
         /* Enter your code here. Print output to STDOUT. */
         String res="Yes";
         for(int i=0;i<A.length()/2;i++){
-          if(A.substring(i,i+1).compareTo(A.substring(A.length()-1-i,A.length()-i))!=0){
+          if(A.charAt(i)!=A.charAt(A.length()-1-i)){
             res="No";
             break;
           }

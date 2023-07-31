@@ -14,7 +14,7 @@
 * [Databases](#)
 * [Regex](#)
 * [Mathematics](#)
-* [C++](#)
+* [C++](#cpp)
 * [Ruby](#)
 * [Linux Shell](#)
 
@@ -49,3 +49,17 @@
 |                                          [Strings]()                                          |                                                                                                      |                                                                                                                                                                                      |
 |                                          [Strings]()                                          |                                                                                                      |                                                                                                                                                                                      |
 |                                          [Strings]()                                          |                                                                                                      |                                                                                                                                                                                      |
+
+## Cpp
+
+|   **Subdomain**  |           **Challenge**          | **Solution** |
+|:----------------:|:--------------------------------:|:------------:|
+| [Introduction]() | [Say "Hello, World!" With C++]() |     []()     |
+| [Introduction]() |       [Input and Output]()       |     []()     |
+| [Introduction]() |       [Basic Data Types]()       |     []()     |
+| [Introduction]() |    [Conditional Statements]()    |     []()     |
+| [Introduction]() |           [For Loop]()           |     []()     |
+| [Introduction]() |           [Functions]()          |     []()     |
+| [Introduction]() |            [Pointer]()           |     []()     |
+| [Introduction]() |      [Arrays Introduction]()     |     []()     |
+| [Introduction]() |     [Variable Sized Arrays]()    |     []()     |

@@ -8,37 +8,40 @@ Read statement for specification.
 */
 class Student{
   private:
+      struct student{
         int age,standard;
-        string f_name,l_name,student_string;
-
+        string f_name,l_name;
+      };
+      string student_string;
+      student stu;
   public:
     void set_age(int stu_age){
-      age=stu_age;
+      stu.age=stu_age;
     }
     void set_standard(int stu_standard){
-      standard=stu_standard;
+      stu.standard=stu_standard;
     }
     void set_first_name(string first_name){
-      f_name=first_name;
+      stu.f_name=first_name;
     }
     void set_last_name(string last_name){
-      l_name=last_name;
+      stu.l_name=last_name;
     }
     int get_age(){
-      return age;
+      return stu.age;
     }
     int get_standard(){
-      return standard;
+      return stu.standard;
     }
     string get_last_name(){
-      return l_name;
+      return stu.l_name;
     }
     string get_first_name(){
-      return f_name;
+      return stu.f_name;
     }
     string to_string(){
       stringstream s;
-      s<<age<<","<<f_name<<","<<l_name<<","<<standard;
+      s<<stu.age<<","<<stu.f_name<<","<<stu.l_name<<","<<stu.standard;
       s>>student_string;
       return student_string;
     }

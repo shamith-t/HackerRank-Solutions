@@ -1,51 +1,24 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
 #include <iostream>
-#include <string>
-#include <sstream>
-#include <exception>
+#include <algorithm>
 using namespace std;
 
-/* Define the exception here */
-class BadLengthException{
-  int len;
-  public:
-  BadLengthException(int n){
-    len=n;
-  }
-  int what(){
-    return len;
-  }
-};
-
-
-bool checkUsername(string username) {
-	bool isValid = true;
-	int n = username.length();
-	if(n < 5) {
-		throw BadLengthException(n);
-	}
-	for(int i = 0; i < n-1; i++) {
-		if(username[i] == 'w' && username[i+1] == 'w') {
-			isValid = false;
-		}
-	}
-	return isValid;
-}
 
 int main() {
-	int T; cin >> T;
-	while(T--) {
-		string username;
-		cin >> username;
-		try {
-			bool isValid = checkUsername(username);
-			if(isValid) {
-				cout << "Valid" << '\n';
-			} else {
-				cout << "Invalid" << '\n';
-			}
-		} catch (BadLengthException e) {
-			cout << "Too short: " << e.what() << '\n';
-		}
-	}
-	return 0;
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+    int n;
+    cin>>n;
+    vector<int> v;
+    for(int i=0;i<n;i++){
+      int x;
+      cin>>x;
+      v.push_back(x);
+    }
+    sort(v.begin(),v.end());
+    for (int i=0; i<n; i++) {
+      cout<<v[i]<<" ";
+    }  
+    return 0;
 }

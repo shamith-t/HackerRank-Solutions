@@ -9,10 +9,8 @@ int main() {
     char *s;
     s=malloc(1024*sizeof(char));
     scanf("%[^\n]", s);
-    int sum[10];
-    for(int i=0;i<10;i++){
-      sum[i]=0;
-    }
+    int sum[10]={0,0,0,0,0,0,0,0,0,0};
+    
     int i=0;
     while(s[i]!='\0'){
       switch(s[i]){
